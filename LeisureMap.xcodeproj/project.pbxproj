@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD814E452105D7D300C45AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD814E442105D7D300C45AF5 /* AppDelegate.swift */; };
+		AD814E472105D7D300C45AF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD814E462105D7D300C45AF5 /* ViewController.swift */; };
+		AD814E4A2105D7D300C45AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD814E482105D7D300C45AF5 /* Main.storyboard */; };
+		AD814E4C2105D7D400C45AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD814E4B2105D7D400C45AF5 /* Assets.xcassets */; };
+		AD814E4F2105D7D400C45AF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD814E4D2105D7D400C45AF5 /* LaunchScreen.storyboard */; };
+		AD814E5A2105D7D400C45AF5 /* LeisureMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD814E592105D7D400C45AF5 /* LeisureMapTests.swift */; };
+		AD814E652105D7D400C45AF5 /* LeisureMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD814E642105D7D400C45AF5 /* LeisureMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD814E562105D7D400C45AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD814E392105D7D300C45AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD814E402105D7D300C45AF5;
+			remoteInfo = LeisureMap;
+		};
+		AD814E612105D7D400C45AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD814E392105D7D300C45AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD814E402105D7D300C45AF5;
+			remoteInfo = LeisureMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD814E412105D7D300C45AF5 /* LeisureMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeisureMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD814E442105D7D300C45AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD814E462105D7D300C45AF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD814E492105D7D300C45AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD814E4B2105D7D400C45AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD814E4E2105D7D400C45AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD814E502105D7D400C45AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD814E552105D7D400C45AF5 /* LeisureMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeisureMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD814E592105D7D400C45AF5 /* LeisureMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeisureMapTests.swift; sourceTree = "<group>"; };
+		AD814E5B2105D7D400C45AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD814E602105D7D400C45AF5 /* LeisureMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeisureMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD814E642105D7D400C45AF5 /* LeisureMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeisureMapUITests.swift; sourceTree = "<group>"; };
+		AD814E662105D7D400C45AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD814E3E2105D7D300C45AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD814E522105D7D400C45AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD814E5D2105D7D400C45AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD814E382105D7D300C45AF5 = {
+			isa = PBXGroup;
+			children = (
+				AD814E432105D7D300C45AF5 /* LeisureMap */,
+				AD814E582105D7D400C45AF5 /* LeisureMapTests */,
+				AD814E632105D7D400C45AF5 /* LeisureMapUITests */,
+				AD814E422105D7D300C45AF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD814E422105D7D300C45AF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD814E412105D7D300C45AF5 /* LeisureMap.app */,
+				AD814E552105D7D400C45AF5 /* LeisureMapTests.xctest */,
+				AD814E602105D7D400C45AF5 /* LeisureMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD814E432105D7D300C45AF5 /* LeisureMap */ = {
+			isa = PBXGroup;
+			children = (
+				AD814E442105D7D300C45AF5 /* AppDelegate.swift */,
+				AD814E462105D7D300C45AF5 /* ViewController.swift */,
+				AD814E482105D7D300C45AF5 /* Main.storyboard */,
+				AD814E4B2105D7D400C45AF5 /* Assets.xcassets */,
+				AD814E4D2105D7D400C45AF5 /* LaunchScreen.storyboard */,
+				AD814E502105D7D400C45AF5 /* Info.plist */,
+			);
+			path = LeisureMap;
+			sourceTree = "<group>";
+		};
+		AD814E582105D7D400C45AF5 /* LeisureMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD814E592105D7D400C45AF5 /* LeisureMapTests.swift */,
+				AD814E5B2105D7D400C45AF5 /* Info.plist */,
+			);
+			path = LeisureMapTests;
+			sourceTree = "<group>";
+		};
+		AD814E632105D7D400C45AF5 /* LeisureMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD814E642105D7D400C45AF5 /* LeisureMapUITests.swift */,
+				AD814E662105D7D400C45AF5 /* Info.plist */,
+			);
+			path = LeisureMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD814E402105D7D300C45AF5 /* LeisureMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD814E692105D7D400C45AF5 /* Build configuration list for PBXNativeTarget "LeisureMap" */;
+			buildPhases = (
+				AD814E3D2105D7D300C45AF5 /* Sources */,
+				AD814E3E2105D7D300C45AF5 /* Frameworks */,
+				AD814E3F2105D7D300C45AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeisureMap;
+			productName = LeisureMap;
+			productReference = AD814E412105D7D300C45AF5 /* LeisureMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD814E542105D7D400C45AF5 /* LeisureMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD814E6C2105D7D400C45AF5 /* Build configuration list for PBXNativeTarget "LeisureMapTests" */;
+			buildPhases = (
+				AD814E512105D7D400C45AF5 /* Sources */,
+				AD814E522105D7D400C45AF5 /* Frameworks */,
+				AD814E532105D7D400C45AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD814E572105D7D400C45AF5 /* PBXTargetDependency */,
+			);
+			name = LeisureMapTests;
+			productName = LeisureMapTests;
+			productReference = AD814E552105D7D400C45AF5 /* LeisureMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD814E5F2105D7D400C45AF5 /* LeisureMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD814E6F2105D7D400C45AF5 /* Build configuration list for PBXNativeTarget "LeisureMapUITests" */;
+			buildPhases = (
+				AD814E5C2105D7D400C45AF5 /* Sources */,
+				AD814E5D2105D7D400C45AF5 /* Frameworks */,
+				AD814E5E2105D7D400C45AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD814E622105D7D400C45AF5 /* PBXTargetDependency */,
+			);
+			name = LeisureMapUITests;
+			productName = LeisureMapUITests;
+			productReference = AD814E602105D7D400C45AF5 /* LeisureMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD814E392105D7D300C45AF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = stu1;
+				TargetAttributes = {
+					AD814E402105D7D300C45AF5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AD814E542105D7D400C45AF5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AD814E402105D7D300C45AF5;
+					};
+					AD814E5F2105D7D400C45AF5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AD814E402105D7D300C45AF5;
+					};
+				};
+			};
+			buildConfigurationList = AD814E3C2105D7D300C45AF5 /* Build configuration list for PBXProject "LeisureMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD814E382105D7D300C45AF5;
+			productRefGroup = AD814E422105D7D300C45AF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD814E402105D7D300C45AF5 /* LeisureMap */,
+				AD814E542105D7D400C45AF5 /* LeisureMapTests */,
+				AD814E5F2105D7D400C45AF5 /* LeisureMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD814E3F2105D7D300C45AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD814E4F2105D7D400C45AF5 /* LaunchScreen.storyboard in Resources */,
+				AD814E4C2105D7D400C45AF5 /* Assets.xcassets in Resources */,
+				AD814E4A2105D7D300C45AF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD814E532105D7D400C45AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD814E5E2105D7D400C45AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD814E3D2105D7D300C45AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD814E472105D7D300C45AF5 /* ViewController.swift in Sources */,
+				AD814E452105D7D300C45AF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD814E512105D7D400C45AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD814E5A2105D7D400C45AF5 /* LeisureMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD814E5C2105D7D400C45AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD814E652105D7D400C45AF5 /* LeisureMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD814E572105D7D400C45AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD814E402105D7D300C45AF5 /* LeisureMap */;
+			targetProxy = AD814E562105D7D400C45AF5 /* PBXContainerItemProxy */;
+		};
+		AD814E622105D7D400C45AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD814E402105D7D300C45AF5 /* LeisureMap */;
+			targetProxy = AD814E612105D7D400C45AF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD814E482105D7D300C45AF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD814E492105D7D300C45AF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD814E4D2105D7D400C45AF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD814E4E2105D7D400C45AF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD814E672105D7D400C45AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD814E682105D7D400C45AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD814E6A2105D7D400C45AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M9LQ23F2X;
+				INFOPLIST_FILE = LeisureMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.LeisureMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD814E6B2105D7D400C45AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M9LQ23F2X;
+				INFOPLIST_FILE = LeisureMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.LeisureMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD814E6D2105D7D400C45AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M9LQ23F2X;
+				INFOPLIST_FILE = LeisureMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.LeisureMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeisureMap.app/LeisureMap";
+			};
+			name = Debug;
+		};
+		AD814E6E2105D7D400C45AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M9LQ23F2X;
+				INFOPLIST_FILE = LeisureMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.LeisureMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeisureMap.app/LeisureMap";
+			};
+			name = Release;
+		};
+		AD814E702105D7D400C45AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M9LQ23F2X;
+				INFOPLIST_FILE = LeisureMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.LeisureMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeisureMap;
+			};
+			name = Debug;
+		};
+		AD814E712105D7D400C45AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M9LQ23F2X;
+				INFOPLIST_FILE = LeisureMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aa.LeisureMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeisureMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD814E3C2105D7D300C45AF5 /* Build configuration list for PBXProject "LeisureMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD814E672105D7D400C45AF5 /* Debug */,
+				AD814E682105D7D400C45AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD814E692105D7D400C45AF5 /* Build configuration list for PBXNativeTarget "LeisureMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD814E6A2105D7D400C45AF5 /* Debug */,
+				AD814E6B2105D7D400C45AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD814E6C2105D7D400C45AF5 /* Build configuration list for PBXNativeTarget "LeisureMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD814E6D2105D7D400C45AF5 /* Debug */,
+				AD814E6E2105D7D400C45AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD814E6F2105D7D400C45AF5 /* Build configuration list for PBXNativeTarget "LeisureMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD814E702105D7D400C45AF5 /* Debug */,
+				AD814E712105D7D400C45AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD814E392105D7D300C45AF5 /* Project object */;
+}
